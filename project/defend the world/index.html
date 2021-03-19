@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Защита мира</title>
+</head>
+<body>
+    <h1>Защита мира</h1>
+     <p> Всех твоих трузей захватили монсьры, но тебе удалось спасьтись и тебе надо освоботить их от гнёта монстров.
+        Правила - надо прокачивать героя, выбивать ему вещи и сражаться с нечестью для освобождения своих друзей.</p>
+    <div class="game">
+        <div class="enemy">
+            <div class="stats">
+                <h2 id="enemy_name">Уровень и имя врага</h2>
+                <p class="enemy_hp_p">Жизни: <span id="enemy_hp">10</span></p>
+                <p class="enemy_dex_P">Ловкость: <span id="enemy_dex">2</span></p>
+                <p class="enemy_fig_P">Урон: <span id="enemy_fig">2</span></p>
+            </div>
+            <div class="icon">
+                <img src="img/Враг_1_2.png" alt="" id="icon_level_1">
+                <img src="img/враг_2_2.png" alt="" id="icon_level_2">
+                <img src="img/враг_33.png" alt="" id="icon_level_3">
+                <img src="img/враг_4_4.png" alt="" id="icon_level_4">
+                <img src="img/враг_5.png" alt="" id="icon_level_5">
+                <img src="img/враг_66.png" alt="" id="icon_level_6">
+                <img src="img/враг_7.png" alt="" id="icon_level_7">
+                <img src="img/враг_8.png" alt="" id="icon_level_8">
+                <img src="img/враг_9.jpg" alt="" id="icon_level_9">
+                <img src="img/враг_10.png" alt="" id="icon_level_10">
+            </div>
+        </div>
+        <div class="wep">
+            <div id="wep_1"><img src="img/оружие_2.png" alt=""></div>
+            <div id="wep_2"><img src="img/оружие_3.png" alt=""></div>
+            <div id="wep_3"><img src="img/оружие_4.png" alt=""></div>
+            <div id="wep_4"><img src="img/оружие_5.png" alt=""></div>
+            <div id="wep_5"><img src="img/оружие_6.png" alt=""></div>
+            <div id="wep_6"><img src="img/оружие_7.png" alt=""></div>
+            <div id="wep_7"><img src="img/оружие_8.png" alt=""></div>
+            <div id="wep_8"><img src="img/оружие_9.png" alt=""></div>
+            <div id="wep_9"><img src="img/оружие_10.png" alt=""></div>
+            <div id="wep_10"><img src="img/оружие_11.png" alt=""></div>
+            <div id="wep_11"><img src="img/оружие_12.png" alt=""></div>
+            <div id="wep_12"><img src="img/оружие_13.png" alt=""></div>
+            <div id="wep_13"><img src="img/оружие_14.png" alt=""></div>
+            <div id="wep_14"><img src="img/оружие_15.png" alt=""></div>
+            <div id="wep_15"><img src="img/оружие_16.png" alt=""></div>
+            <div id="wep_16"><img src="img/оружие_17.png" alt=""></div>
+            <div id="wep_17"><img src="img/оружие_18.png" alt=""></div>
+            <div id="wep_18"><img src="img/оружие_19.png" alt=""></div>
+            <div id="wep_19"><img src="img/оружие_21.png" alt=""></div>
+            <div id="wep_20"><img src="img/оружие_21.png" alt=""></div>
+            <div id="wep_21"><img src="img/оружие_22.png" alt=""></div>
+            <div id="wep_22"><img src="img/оружие_23.png" alt=""></div>
+            <div id="wep_23"><img src="img/оружие_24.png" alt=""></div>
+            <div id="wep_24"><img src="img/оружие_25.png" alt=""></div>
+            <div id="wep_25"><img src="img/оружие_26.png" alt=""></div>
+            <div id="wep_26"><img src="img/оружие_27.png" alt=""></div>
+            <div id="wep_27"><img src="img/оружие_28.png" alt=""></div>
+            <div id="wep_28"><img src="img/оружие_29.png" alt=""></div>
+            <div id="wep_29"><img src="img/оружие_30.png" alt=""></div>
+            <div id="wep_30"><img src="img/оружие_32.png" alt=""></div>
+            <div id="wep_31"><img src="img/оружие_33.png" alt=""></div>
+        </div>
+        <div class="hero">
+            <div class="stats">
+                <h2 id="hero_name">Уровень и имя героя</h2>
+                <p class="hero_hp_p">Жизни: <span id="hero_hp">10</span></p>
+                <p class="hero__dex_P">Ловкость: <span id="hero_dex">1</span></p>
+                <p class="hero_fig_P">Урон: <span id="hero_fig">1</span></p>
+            </div>   
+            <div class="icon">
+                <img src="img/наш_герой_12.png" alt="" id="level_1">
+            </div>
+        </div>
+        <div class="controls">
+            <div class="menu_button">
+                <button class="start_game">Начать игру</button>
+                <button class="rerol_armor">Реролить амуницию</button>
+            </div>
+            <div class="game_button">
+                <button class="kick">Удар</button>
+                <button class="kick2">Удар 2</button>
+                <button class="super_kick">Супер удар</button>
+            </div>
+            <div class="points">
+                <p class="hero_points">Ваши поинты:<span id="points">10</span></p>
+                <button class="point_fig">Прокачать урон</button>
+                <button class="point_dex">Прокачать ловкость</button>
+                <button class="point_hp">Прокачать хп</button>
+                <button class="point_reset">Сбросить характеристики</button>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

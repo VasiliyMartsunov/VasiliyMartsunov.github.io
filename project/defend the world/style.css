@@ -1,0 +1,205 @@
+body{
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.game{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.enemy{
+    width: 35%;
+    text-align: center;
+    display: none; /* в начале игры скрыт а после дисплэй удаляем*/
+}
+img{
+    width: 80%;
+
+}
+#icon_level_1{
+    display: inline-block;
+}
+#icon_level_2{
+    display: none;
+}
+#icon_level_3{
+    display: none;
+}
+#icon_level_4{
+    display: none;
+}
+#icon_level_5{
+    display: none;
+}
+#icon_level_6{
+    display: none;
+}
+#icon_level_7{
+    display: none;
+}
+#icon_level_8{
+    display: none;
+}
+#icon_level_9{
+    display: none;
+}
+#icon_level_10{
+    display: none;
+}
+.hero{
+    width: 35%;
+    align-items: flex-start;
+    display: none; /* в начале игры скрыт а после дисплэй удаляем*/
+}
+.controls{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.menu_button{
+    display: flex; /* в начале игры скрыт а после меняется на флекс*/
+    flex-direction: column;
+    margin: 20px 0;
+}
+.game_button{
+    display: none; /* в начале игры скрыт а после меняется на флекс*/
+    flex-direction: column;
+    margin: 20px 0;
+}
+button{
+    color: black;
+    background-color: rgb(125, 123, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 8px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.points{
+    display: none; /* в начале игры скрыт */
+    flex-direction: column;
+}
+.rerol_armor{
+    display: none;
+}
+.wep{
+    width: 5%;
+    display: inline-block;
+    position: absolute;
+    left: 43%;
+}
+#wep_1{
+    display: none;
+}
+#wep_2{
+    display: none;
+}
+#wep_3{
+    display: none;
+}
+#wep_4{
+    display: none;
+}
+#wep_5{
+    display: none;
+}
+#wep_6{
+    display: none;
+}
+#wep_7{
+    display: none;
+}
+#wep_8{
+    display: none;
+}
+#wep_9{
+    display: none;
+}
+#wep_10{
+    display: none;
+}
+#wep_11{
+    display: none;
+}
+#wep_12{
+    display: none;
+}
+#wep_13{
+    display: none;
+}
+#wep_14{
+    display: none;
+}
+#wep_15{
+    display: none;
+}
+#wep_16{
+    display: none;
+}
+#wep_17{
+    display: none;
+}
+#wep_18{
+    display: none;
+}
+#wep_19{
+    display: none;
+}
+#wep_20{
+    display: none;
+}
+#wep_21{
+    display: none;
+}
+#wep_22{
+    display: none;
+}
+#wep_23{
+    display: none;
+}
+#wep_24{
+    display: none;
+}
+#wep_25{
+    display: none;
+}
+#wep_26{
+    display: none;
+}
+#wep_27{
+    display: none;
+}
+#wep_28{
+    display: none;
+}
+#wep_29{
+    display: none;
+}
+#wep_30{
+    display: none;
+}
+#wep_31{
+    display: none;
+}
+@media(
+    max-width: 600px
+){
+    .wep{
+        width: 15%;
+        left: 0;
+        display: inline-block;
+        position: inherit;
+    }
+    .game{
+        display: flex;
+        min-width: 350px;
+        flex-wrap: wrap;
+    }
+    .controls{
+        width: 90%;
+    }
+}    
